@@ -7,13 +7,17 @@ devMode =true
 token=weiriji
 
 # 测试用的账号
-appId=wx86edd3c828e6650f
-appSecret=b3206e47df95ee2cf61058a3a165e1da
+#appId=wx8b2f12a8d6b0504e
+#appSecret=68fb1e674ff82c2ba49115a741d4a9a3
+
+# 爱渡饮品账号
+appId=wx165e579d911ce48d
+appSecret=d55024fb20bbb9937f56e9a04f9e752b
 
 
 #是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
 encryptMessage=false
-encodingAesKey=5C8csBd4cG4c9039OKDnNaZmYlkAzXV31piXQFRZKHC
+encodingAesKey=lqJ5MrC4ZiKfFuvSCXkAAARHK7BYzzSFzd1jxswroFf
 
 #微信支付
 #商户号
@@ -22,10 +26,10 @@ mch_id=___mch_id
 paternerKey=____paternerKey
 
 #通知账号
-notify_email=572839485@qq.com
-notify_mobile=13545191275
-notify_email_test=572839485@qq.com
-notify_mobile_test=13545191275
+notify_email=982679298@qq.com
+notify_mobile=18551410942
+notify_email_test=982679298@qq.com
+notify_mobile_test=18551410942
 
 
 #####业务逻辑中的华丽的分割线#########

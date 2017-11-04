@@ -48,15 +48,20 @@ public class MenuManager  {
 	     */  
 	    private static Menu getTestMenu() {
 	    	
-	    	ClickButton btn11 = new ClickButton();  
+	    	/*ClickButton btn11 = new ClickButton();  
 	        btn11.setName("短日记");  
 	        btn11.setType("click");  
-	        btn11.setKey("rselfmenu_1_1");
+	        btn11.setKey("rselfmenu_1_1");*/
+	    	
+	    	ViewButton btn1 = new ViewButton();  
+	    	btn1.setName("点外卖");  
+	    	btn1.setType("view");  
+	    	btn1.setUrl("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx165e579d911ce48d&redirect_uri=http://order.91laiqian.com/wechat/redirect?id=899162&response_type=code&scope=snsapi_base,snsapi_userinfo&state=1&component_appid=wx988b306e18a790ae#wechat_redirect "); 
 	  	  
-	        ViewButton btn21 = new ViewButton();  
-	        btn21.setName("长日记");  
-	        btn21.setType("view");  
-	        btn21.setUrl("http://www.baidu.com"); 
+	        ViewButton btn2 = new ViewButton();  
+	        btn2.setName("会员中心");  
+	        btn2.setType("view");  
+	        btn2.setUrl("https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx165e579d911ce48d&redirect_uri=http://order.91laiqian.com/wechat/redirect?id=899162&response_type=code&scope=snsapi_base,snsapi_userinfo&state=3&component_appid=wx988b306e18a790ae#wechat_redirect"); 
 	        
 	        ViewButton btn31 = new ViewButton();  
 	        btn31.setName("留言墙");  
@@ -79,7 +84,7 @@ public class MenuManager  {
 	         * menu.setButton(new Button[] { mainBtn1, mainBtn2, btn33 }); 
 	         */
 	        Menu menu = new Menu();  
-	        menu.setButton(new Button[] { btn11, btn21, mainBtn3 });  
+	        menu.setButton(new Button[] { btn1, btn2, mainBtn3 });  
 	        return menu;  
 	    }
 }
